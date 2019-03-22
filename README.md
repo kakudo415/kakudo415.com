@@ -1,1 +1,0 @@
-# kakudo415.com

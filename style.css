@@ -1,0 +1,51 @@
+header {
+  padding: 0 1rem;
+}
+header > div {
+  height: 7rem;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+header .icon {
+  margin-right: auto;
+}
+header .icon img {
+  height: 2.5rem;
+}
+header .contact {
+  padding: 0.625rem 1.5rem;
+  color: #007FFF;
+  border: 0.125rem solid #007FFF;
+  border-radius: 1.5rem;
+  transition-property: color, background;
+  transition-duration: 0.25s;
+}
+header .contact:hover {
+  color: #FFF;
+  background: #007FFF;
+}
+/* main */
+main {
+  color: #000C;
+}
+main > div > div {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.title {
+  font-family: 'Quicksand', sans-serif;
+  padding: 2.25rem 0;
+}
+.title h1 {
+  margin: 0 0 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.title h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #0008;
+}
