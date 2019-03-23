@@ -144,7 +144,7 @@ main > div > div {
   transition-property: opacity;
   transition-duration: 0.25s;
 }
-.works > div > a:hover .overlay {
+.works > div > a:hover .overlay, .works > div > a:active .overlay {
   opacity: 1;
 }
 .works p {
