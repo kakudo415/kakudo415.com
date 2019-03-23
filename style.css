@@ -1,6 +1,7 @@
 html {
   font-family: 'Quicksand', sans-serif;
 }
+/* Header */
 header {
   padding: 0 1rem;
 }
@@ -30,8 +31,7 @@ header .contact:hover {
   background: #007FFF;
 }
 
-/* Main */
-/* Title */
+/* Introduction */
 main {
   color: #000D;
 }
@@ -52,7 +52,7 @@ main > div > div {
   text-align: center;
   color: #0008;
 }
-/* Works */
+/* Title Belt */
 .title-belt {
   margin: 4rem 0 -12rem;
   padding: 4rem 0 16rem;
@@ -63,6 +63,7 @@ main > div > div {
 .title-belt h2 {
   font-size: 1.5rem;
 }
+/* I as ... */
 .i-as {
   padding: 0 1rem;
 }
@@ -81,30 +82,82 @@ main > div > div {
 .i-as > div > div:last-child {
   border: none;
 }
-.i-as > div > div > i {
+.i-as i {
   margin: 0 0 2rem;
   color: #007FFF;
   font-size: 3rem;
 }
-.i-as > div > div > h3 {
-  margin: 0 0 1.375rem;
+.i-as h3 {
   font-size: 1.375rem;
 }
-.i-as > div > div > p {
+.i-as p {
   line-height: 1.5;
 }
-.i-as > div > div > h4 {
-  margin-top: 1.25rem;
+.i-as h4 {
+  margin-top: 1.5rem;
   color: #007FFF;
   font-size: 1.25rem;
 }
-.i-as > div > div > ul {
+.i-as ul {
   margin-top: 1rem;
   font-family: sans-serif;
 }
-.i-as > div > div li {
+.i-as li {
   margin-top: 0.25rem;
   line-height: 1.5;
+}
+/* Works */
+.works {
+  padding: 0 1rem;
+}
+.works > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(309px, 1fr));
+  grid-gap: 1rem;
+}
+.works > div > a {
+  width: 100%;
+  padding: 4rem 0;
+  background: #FFF;
+  border: 1px solid #0001;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.works img {
+  height: 2.5rem;
+  margin: 0 auto;
+}
+.works h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+.works .overlay {
+  height: 100%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  color: #FFF;
+  background: #333;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+}
+.works > div > a:hover .overlay {
+  opacity: 1;
+}
+.works p {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+.works .button {
+  margin: 1rem;
+  padding: 0.625rem 1.5rem;
+  color: #007FFF;
+  background: #FFF;
+  border: 0.125rem solid #007FFF;
+  border-radius: 1.5rem;
 }
 
 /* Footer */
