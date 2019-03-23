@@ -5,7 +5,7 @@ header {
   padding: 0 1rem;
 }
 header > div {
-  height: 6.5rem;
+  height: 5rem;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -39,15 +39,15 @@ main > div > div {
   max-width: 960px;
   margin: 0 auto;
 }
-.title {
-  padding: 2rem 0 4.5rem;
+.introduction {
+  margin: 4rem 0;
 }
-.title h1 {
+.introduction h1 {
   margin: 0 0 1.5rem;
   font-size: 2.5rem;
   text-align: center;
 }
-.title p {
+.introduction p {
   font-size: 1.5rem;
   text-align: center;
   color: #0008;
@@ -109,7 +109,7 @@ main > div > div {
 
 /* Footer */
 footer {
-  margin: 2rem 0 0;
+  margin: 4rem 0 0;
   padding: 2rem 0;
   color: #FFFD;
   background: #007FFF;
@@ -159,22 +159,10 @@ footer p {
   html {
     font-size: 14px;
   }
-  header > div {
-    height: 5rem;
+  .introduction {
+    margin: 4rem 0;
   }
-  header .icon img {
-    height: 2rem;
-  }
-  header .contact {
-    padding: 0.375rem 1.25rem;
-    color: #007FFF;
-    border: 0.125rem solid #007FFF;
-    border-radius: 1rem;
-  }
-  .title {
-    padding: 1.25rem 0 6.25rem;
-  }
-  .title h1 {
+  .introduction h1 {
     font-size: 2rem;
   }
 }
