@@ -40,7 +40,7 @@ main > div > div {
   margin: 0 auto;
 }
 .title {
-  padding: 2rem 0 8rem;
+  padding: 2rem 0 8.5rem;
 }
 .title h1 {
   margin: 0 0 1.5rem;
@@ -161,8 +161,17 @@ footer p {
   header > div {
     height: 5rem;
   }
+  header .icon img {
+    height: 2rem;
+  }
+  header .contact {
+    padding: 0.375rem 1.25rem;
+    color: #007FFF;
+    border: 0.125rem solid #007FFF;
+    border-radius: 1rem;
+  }
   .title {
-    padding: 1.25rem;
+    padding: 1.25rem 0 6.25rem;
   }
   .title h1 {
     font-size: 2rem;
