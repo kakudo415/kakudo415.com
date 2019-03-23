@@ -40,7 +40,7 @@ main > div > div {
   margin: 0 auto;
 }
 .title {
-  padding: 2rem 0 8.5rem;
+  padding: 2rem 0 4.5rem;
 }
 .title h1 {
   margin: 0 0 1.5rem;
@@ -53,57 +53,58 @@ main > div > div {
   color: #0008;
 }
 /* Works */
-.skill-title {
-  margin-bottom: -12rem;
+.title-belt {
+  margin: 4rem 0 -12rem;
   padding: 4rem 0 16rem;
   color: #FFF;
   background: #007FFF;
   text-align: center;
 }
-.skill-title h2 {
+.title-belt h2 {
   font-size: 1.5rem;
 }
-.skill {
+.i-as {
   padding: 0 1rem;
 }
-.skill > div {
+.i-as > div {
   display: flex;
   background: #FFF;
   border: 1px solid #0001;
   border-radius: 0.5rem;
 }
-.skill > div > div {
+.i-as > div > div {
   width: 100%;
   padding: 2rem 1rem;
   text-align: center;
   border-right: 1px solid #0001;
 }
-.skill > div > div:last-child {
+.i-as > div > div:last-child {
   border: none;
 }
-.skill > div > div > i {
+.i-as > div > div > i {
   margin: 0 0 2rem;
   color: #007FFF;
   font-size: 3rem;
 }
-.skill > div > div > h3 {
+.i-as > div > div > h3 {
   margin: 0 0 1.375rem;
   font-size: 1.375rem;
 }
-.skill > div > div > p {
+.i-as > div > div > p {
   line-height: 1.5;
 }
-.skill > div > div > h4 {
+.i-as > div > div > h4 {
   margin-top: 1.25rem;
   color: #007FFF;
   font-size: 1.25rem;
 }
-.skill > div > div > ul {
+.i-as > div > div > ul {
   margin-top: 1rem;
   font-family: sans-serif;
 }
-.skill > div > div li {
-  margin-top: 0.5rem;
+.i-as > div > div li {
+  margin-top: 0.25rem;
+  line-height: 1.5;
 }
 
 /* Footer */
@@ -146,10 +147,10 @@ footer p {
 }
 /* Responsive */
 @media (max-width: 960px) {
-  .skill > div {
+  .i-as > div {
     display: block;
   }
-  .skill > div > div {
+  .i-as > div > div {
     border-right: none;
     border-bottom: 1px solid #0001;
   }
