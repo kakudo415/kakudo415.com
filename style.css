@@ -64,45 +64,45 @@ main > div > div {
   font-size: 1.5rem;
 }
 /* I as ... */
-.i-as {
+.i-am {
   padding: 0 1rem;
 }
-.i-as > div {
+.i-am > div {
   display: flex;
   background: #FFF;
   border: 1px solid #0001;
   border-radius: 0.5rem;
 }
-.i-as > div > div {
+.i-am > div > div {
   width: 100%;
   padding: 2rem 1rem;
   text-align: center;
   border-right: 1px solid #0001;
 }
-.i-as > div > div:last-child {
+.i-am > div > div:last-child {
   border: none;
 }
-.i-as i {
+.i-am i {
   margin: 0 0 2rem;
   color: #007FFF;
   font-size: 3rem;
 }
-.i-as h3 {
+.i-am h3 {
   font-size: 1.375rem;
 }
-.i-as p {
+.i-am p {
   line-height: 1.5;
 }
-.i-as h4 {
+.i-am h4 {
   margin-top: 1.5rem;
   color: #007FFF;
   font-size: 1.25rem;
 }
-.i-as ul {
+.i-am ul {
   margin-top: 1rem;
   font-family: sans-serif;
 }
-.i-as li {
+.i-am li {
   margin-top: 0.25rem;
   line-height: 1.5;
 }
@@ -200,10 +200,10 @@ footer p {
 }
 /* Responsive */
 @media (max-width: 960px) {
-  .i-as > div {
+  .i-am > div {
     display: block;
   }
-  .i-as > div > div {
+  .i-am > div > div {
     border-right: none;
     border-bottom: 1px solid #0001;
   }
