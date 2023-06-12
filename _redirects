@@ -1,0 +1,2 @@
+# Redirects are handled by Netlify
+/ https://kakudo.org/ 301!
